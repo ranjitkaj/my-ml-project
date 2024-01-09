@@ -4,7 +4,6 @@ import streamlit as st
 import numpy as np 
 import pandas as pd 
 
-
 df = pd.read_csv('Sales Data.csv', encoding= 'unicode_escape')
 df.shape
 df.head()
